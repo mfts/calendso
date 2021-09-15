@@ -939,25 +939,23 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@radix-ui/react-dialog@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-0.0.20.tgz#b26607bea68fc20067d06fab996bac7f1acf68c1"
-  integrity sha512-fXgWxWyvmNiimxrFGdvUNve0tyQEFyPwrNgkSi6Xiha9cX8sqWdiYWq500zhzUQQFJVS7No73ylx8kgrI7SoLw==
+"@radix-ui/react-dialog@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-0.1.0.tgz#1e0471e03abc9012f2a2dc1644f7e844ccf44c94"
+  integrity sha512-yy833v6mSkqlhdDR7R0+sZJZd5OyEzsjeJfAuJoWRMSW2/2S78vTUgk1sRTXzT+6unoQOQ9teevURNjwAfX0Ug==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@radix-ui/primitive" "0.0.5"
-    "@radix-ui/react-compose-refs" "0.0.5"
-    "@radix-ui/react-context" "0.0.5"
-    "@radix-ui/react-dismissable-layer" "0.0.15"
-    "@radix-ui/react-focus-guards" "0.0.7"
-    "@radix-ui/react-focus-scope" "0.0.15"
-    "@radix-ui/react-id" "0.0.6"
-    "@radix-ui/react-polymorphic" "0.0.13"
-    "@radix-ui/react-portal" "0.0.15"
-    "@radix-ui/react-presence" "0.0.15"
-    "@radix-ui/react-primitive" "0.0.15"
-    "@radix-ui/react-slot" "0.0.12"
-    "@radix-ui/react-use-controllable-state" "0.0.6"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.0"
+    "@radix-ui/react-dismissable-layer" "0.1.0"
+    "@radix-ui/react-focus-guards" "0.1.0"
+    "@radix-ui/react-focus-scope" "0.1.0"
+    "@radix-ui/react-id" "0.1.0"
+    "@radix-ui/react-portal" "0.1.0"
+    "@radix-ui/react-presence" "0.1.0"
+    "@radix-ui/react-primitive" "0.1.0"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
     aria-hidden "^1.1.1"
     react-remove-scroll "^2.4.0"
 
@@ -973,6 +971,18 @@
     "@radix-ui/react-use-body-pointer-events" "0.0.7"
     "@radix-ui/react-use-callback-ref" "0.0.5"
     "@radix-ui/react-use-escape-keydown" "0.0.6"
+
+"@radix-ui/react-dismissable-layer@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-0.1.0.tgz#ab2ec7490a56f7b46afa8dea08d109b9e4643c3b"
+  integrity sha512-xQSXEP7rHkAe0sY1Ggd9CS0IuYXhjks0e+mtPu6LgJBXhlOTDVj4MeJC8fKAP+H1sKMygcrEEagb6M5GXEDvzg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-primitive" "0.1.0"
+    "@radix-ui/react-use-body-pointer-events" "0.1.0"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+    "@radix-ui/react-use-escape-keydown" "0.1.0"
 
 "@radix-ui/react-dropdown-menu@^0.0.23":
   version "0.0.23"
@@ -996,6 +1006,13 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
+"@radix-ui/react-focus-guards@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-focus-guards/-/react-focus-guards-0.1.0.tgz#ba3b6f902cba7826569f8edc21ff8223dece7def"
+  integrity sha512-kRx/swAjEfBpQ3ns7J3H4uxpXuWCqN7MpALiSDOXiyo2vkWv0L9sxvbpZeTulINuE3CGMzicVMuNc/VWXjFKOg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
 "@radix-ui/react-focus-scope@0.0.15":
   version "0.0.15"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-focus-scope/-/react-focus-scope-0.0.15.tgz#60917075e53ee72d2a473fba88eb31e7aaf7d841"
@@ -1006,6 +1023,16 @@
     "@radix-ui/react-polymorphic" "0.0.13"
     "@radix-ui/react-primitive" "0.0.15"
     "@radix-ui/react-use-callback-ref" "0.0.5"
+
+"@radix-ui/react-focus-scope@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-focus-scope/-/react-focus-scope-0.1.0.tgz#24cb6433b4b5c733cdadc34cf36f9cd01ab9beb1"
+  integrity sha512-lquiYfEnkpqLDR9oO/h78OAY73jedZHVlBHJi2RZeSg3YM1UyyyGx+adZD+VWNphA/oEQG/RE5b7DteF4hhG8Q==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-primitive" "0.1.0"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
 
 "@radix-ui/react-id@0.0.6":
   version "0.0.6"
@@ -1243,6 +1270,14 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@radix-ui/react-use-layout-effect" "0.0.5"
+
+"@radix-ui/react-use-body-pointer-events@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-body-pointer-events/-/react-use-body-pointer-events-0.1.0.tgz#29b211464493f8ca5149ce34b96b95abbc97d741"
+  integrity sha512-svPyoHCcwOq/vpWNEvdH/yD91vN9p8BtiozNQbjVmJRxQ/vS12zqk70AxTGWe+2ZKHq2sggpEQNTv1JHyVFlnQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
 
 "@radix-ui/react-use-callback-ref@0.0.5":
   version "0.0.5"
